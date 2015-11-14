@@ -1,5 +1,5 @@
 #install pptps
-sudo apt-get install pptpd
+sudo apt-get -y install pptpd
 
 #ip
 sudo echo "localip 192.168.0.1" >> /etc/pptpd.conf
