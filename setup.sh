@@ -2,6 +2,7 @@
 sudo apt-get -y install pptpd
 
 #ip
+sudo echo "bcrelay eth0" >> /etc/pptpd.conf
 sudo echo "localip 192.168.0.1" >> /etc/pptpd.conf
 sudo echo "remoteip 192.168.0.100-200" >> /etc/pptpd.conf
 
